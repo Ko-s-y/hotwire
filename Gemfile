@@ -44,6 +44,8 @@ gem "bootsnap", require: false
 
 gem "kaminari"
 gem "ransack", "~> 3.0.0"
+gem "bootstrap_form", "~> 5.0.0"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
