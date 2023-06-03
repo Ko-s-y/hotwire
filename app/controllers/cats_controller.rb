@@ -3,7 +3,7 @@ class CatsController < ApplicationController
 
   # GET /cats
   def index
-    @cats = Cat.all
+    @cats = Cat.all.page(params[:page])
   end
 
   # GET /cats/1
