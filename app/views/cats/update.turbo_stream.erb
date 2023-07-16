@@ -2,4 +2,4 @@
   <%= render partial: "cats/cat",
              locals: { cat: @cat } %>
 <% end %>
-<%= turbo_stream.update "flash", partial: "flash" %>
+<%= turbo_stream_flash %>
